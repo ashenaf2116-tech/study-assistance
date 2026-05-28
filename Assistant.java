@@ -26,7 +26,7 @@ public class Assistant {
   }
   public void showAllTasks() {
     if (tasks.isEmpty()) {
-      System.out.println("\n===== YOUR TASKS =====");
+      System.out.println("===== YOUR TASKS =====");
       for (Task t : tasks) {
         t.show();
       }
