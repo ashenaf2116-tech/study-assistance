@@ -8,7 +8,10 @@ public class Task {
         this.isCompleted = false;
 
     }
-
+    public String getTitle() {
+    return title;
+    }
+    
     public boolean isCompleted(){
         return isCompleted;
     }
